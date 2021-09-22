@@ -6,7 +6,7 @@ const ngApp = express();
 ngApp.use(express.static('./dist/angular-ionic-poc'));
 
 ngApp.get('/*', function (request, response) {
-    response.sendFile(path.join(__dirname, '/dist/angular-forms-validation/index.html'));
+    response.sendFile(path.join(__dirname, '/dist/angular-ionic-poc/index.html'));
 });
 
 ngApp.listen(process.env.PORT || 8080);
