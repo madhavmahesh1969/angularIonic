@@ -1,0 +1,12 @@
+{
+  "defaultProject": "angularIonic",
+  "projects": {
+    "angularIonic": {
+      "name": "angularIonic",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "angular"
+    }
+  }
+}
